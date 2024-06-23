@@ -281,7 +281,7 @@
 <--- -------------------------- -*/
 .magic-text {
   animation: background-pan 8s linear infinite;
-  background: linear-gradient(to right, var(--primary), var(--secondaryLight), var(--secondary), var(--primary));
+  background: linear-gradient(to right, var(--primaryLight), var(--secondaryLight), #b1ffbc, var(--primaryLight));
   background-size: 200%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
