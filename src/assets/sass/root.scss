@@ -45,7 +45,7 @@
         max-width: 43.75rem;
         font-size: var(--headerFontSize);
         line-height: 1.2em;
-        font-weight: 900;
+        font-weight: 700;
         color: var(--headerColor);
         text-align: inherit;
     }
@@ -445,25 +445,6 @@
           display: none;
           position: relative;
           z-index: 10;
-      }
-
-      .cs-phone {
-          font-size: calc(16 / 16 * 1rem);
-          line-height: 1.5em;
-          text-decoration: none;
-          margin: 0;
-          color: var(--headerColor);
-          display: flex;
-          justify-content: flex-start;
-          align-items: center;
-          gap: calc(8 / 16 * 1rem);
-          transition: opacity 0.3s, color 0.3s;
-      }
-
-      .cs-phone-icon {
-          width: calc(24 / 16 * 1rem);
-          height: auto;
-          display: block;
       }
 
       .cs-social {
@@ -951,7 +932,7 @@
       .cs-logo {
           width: 18.4%;
           max-width: calc(350 / 16 * 1rem);
-          height: calc(32 / 16 * 1.2rem);
+          height: calc(32 / 16 * 1rem);
           /* margin-right auto pushes everything away from it to the right */
           margin: 0 auto 0 0;
           padding: 0;
@@ -1070,6 +1051,7 @@
       .cs-li-link {
           font-size: calc(16 / 16 * 1rem);
           line-height: 1.5em;
+          font-weight: 600;
           text-decoration: none;
           margin: 0;
           color: var(--headerColor);
@@ -1168,6 +1150,8 @@
       }
   }
 }
+                              
+                              
                               
 
 /*-- -------------------------- -->
