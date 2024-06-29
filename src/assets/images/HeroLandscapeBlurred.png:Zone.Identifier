@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://cloudconvert.com/
+HostUrl=https://us-east.storage.cloudconvert.com/tasks/e50a8bbc-cc30-4dd8-b629-54a57206ba60/HeroLandscapeBlurred.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cloudconvert-production%2F20240629%2Fva%2Fs3%2Faws4_request&X-Amz-Date=20240629T040525Z&X-Amz-Expires=86400&X-Amz-Signature=16c147cad8cb47c9b6d009032b6d1800628483208d2ba364e12602bd658b8078&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3D%22HeroLandscapeBlurred.png%22&response-content-type=image%2Fpng&x-id=GetObject

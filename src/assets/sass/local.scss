@@ -8,6 +8,7 @@
 @media only screen and (min-width: 0rem) {
     #sbs {
         padding: var(--sectionPadding);
+        background-color: #f7f7f7;
 
         .cs-container {
             display: flex;
@@ -162,6 +163,7 @@
 @media only screen and (min-width: 0rem) {
     body.dark-mode {
         #sbs {
+          background-color: var(--dark);
             .cs-left {
                 &:before,
                 &:after {
@@ -416,6 +418,7 @@
         padding: var(--sectionPadding);
         /* Centers button */
         text-align: center;
+
         .cs-container {
             margin: auto;
             max-width: calc(1322 / 16 * 1em);

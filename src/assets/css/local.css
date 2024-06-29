@@ -6,6 +6,7 @@
 @media only screen and (min-width: 0rem) {
   #sbs {
     padding: var(--sectionPadding);
+    background-color: #f7f7f7;
   }
   #sbs .cs-container {
     display: flex;
@@ -136,6 +137,9 @@
 }
 /* Dark Mode */
 @media only screen and (min-width: 0rem) {
+  body.dark-mode #sbs {
+    background-color: var(--dark);
+  }
   body.dark-mode #sbs .cs-left:before, body.dark-mode #sbs .cs-left:after {
     background: var(--accent);
   }
